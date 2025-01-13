@@ -4,7 +4,7 @@ import Header from '../components/Header'
 import Location from './Location'
 import Services from './Services'
 import About from './About'
-import Footer from '../components/footer'
+import Footer from '../components/Footer'
 
 const Home = () => {
   return (
