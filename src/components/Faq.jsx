@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Faqs = () => {
+const Faq = () => {
   const [selected, setSelected] = useState(null);
   const [enableMultiSelection, setEnableMultiSelection] = useState(false);
   const [multiple, setMultiple] = useState([]);
@@ -86,4 +86,4 @@ const Faqs = () => {
   );
 };
 
-export default Faqs;
+export default Faq;

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 import PhoneNumber from "../components/PhoneNumber";
 import { BsWhatsapp } from "react-icons/bs";
-import Faqs from "../components/faqs";
+import Faq from "../components/Faq";
 
 
 const testimonials = [
@@ -163,7 +163,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <Faqs/>
+      <Faq/>
     </div>
   );
 };
