@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
-import { assets } from "../assets/assets";
+
 import PhoneNumber from "../components/PhoneNumber";
 import { BsWhatsapp } from "react-icons/bs";
+import Faqs from "../components/faqs";
+
 
 const testimonials = [
   {
@@ -13,14 +15,14 @@ const testimonials = [
   },
   {
     id: 2,
-    name: "Satyam",
-    feedback: "Olivia Sp N Physiotherapy is a luxurious beauty and personal care service that exceeded my expectations. From the moment I walked in, I felt pampered and relaxed. The attention to detail and professionalism of the staff was outstanding. The physiotherapy session was rejuvenating and left me feeling refreshed. I highly recommend Olivia Sp N Physiotherapy for anyone looking for a top-notch beauty and personal care experience.",
+    name: "Sonu",
+    feedback: "Olivia & Physiotherapy - Four offers high-quality beauty products that are truly exceptional. From skincare to hair care, their products are top-notch and deliver excellent results. I highly recommend trying out their range for an amazing beauty experience!",
     ratings: "⭐⭐⭐⭐⭐",
   },
   {
     id: 3,
-    name: "Ankit",
-    feedback: "I recently visited Olivia Spa N Physiotherapy for their beauty and personal care services, and I must say, it was an excellent experience. The salon was impeccably clean and hygienic, which instantly put me at ease. The staff were friendly and attentive, making sure that I was comfortable throughout my visit.The services offered were top-notch, with a wide range of options to choose from. I particularly enjoyed the massage therapy, which left me feeling relaxed and rejuvenated. The attention to detail",
+    name: "Kabir",
+    feedback: "I had an excellent interaction with Olivia Spa N Physiotherapy, a beauty and personal care service. They had great offers and provided top-notch services. I was very satisfied with my experience there.",
     ratings: "⭐⭐⭐⭐⭐",
   },
   {
@@ -115,22 +117,25 @@ const About = () => {
                   href="https://wa.me/+918409122919" 
                   target="_blank" 
                   rel="noopener noreferrer" 
-                  className="flex items-center  text-white px-6 gap-3 py-2 rounded-full"
+                  className="flex items-center  text-white px-4 py-2 gap-3  rounded-full"
                 >
-                 <BsWhatsapp  /> Chat with us
+                 <BsWhatsapp  /> Live Chat
                 </a>
+              </div>
+              <div>
+            
               </div>
           </div>
          
         </div>
-
+        
+       
 
       <div className="flex flex-col items-center justify-center bg-gray-100 px-4">
         <div className="relative w-full max-w-md p-6 bg-white shadow-lg rounded-lg">
+          <h1 className="text-gray-800 text-center text-3xl font-bold">Customer's Feedback</h1>
           <div className="text-center">
-            {
-              
-            }
+            
           
             <h3 className="mt-4 text-lg font-semibold text-gray-800">
               {testimonials[current].name}
@@ -158,7 +163,7 @@ const About = () => {
           </div>
         </div>
       </div>
-     
+      <Faqs/>
     </div>
   );
 };

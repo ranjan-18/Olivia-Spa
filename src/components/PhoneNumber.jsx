@@ -2,7 +2,7 @@ import React from 'react';
 import { FaPhoneAlt } from "react-icons/fa";
 function PhoneNumber() {
   const dialNumber = () => {
-    const phoneNumber = '+11234567890';
+    const phoneNumber = '+918409122919';
     window.location.href = `tel:${phoneNumber}`;
   };
 

@@ -28,7 +28,7 @@ const Footer = () => {
     </div>
     </div>
     <div className='text-white border-t border-white py-4 mt-10 text-center'>
-    Copyright 2024 © Olivia Spa N Physiothreapy|Made with ❤️ by <a href="https://www.linkedin.com/in/ranjan-kumar-a3a27425a/" target='_blank'>Ranjan</a>
+    Copyright © reserved Olivia Spa N Physiothreapy | Made with ❤️ by <a className='z-50' href="https://www.linkedin.com/in/ranjan-kumar-a3a27425a/" target='_blank'>Ranjan</a>
     </div>
     </div>
   )
