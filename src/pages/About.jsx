@@ -119,22 +119,11 @@ const About = () => {
                   rel="noopener noreferrer" 
                   className="flex items-center  text-white px-4 py-2 gap-3  rounded-full"
                 >
-                 <BsWhatsapp  /> Live Chat
+                 <BsWhatsapp  />Chat
                 </a>
               </div>
 
-              <div 
-                className="bg-blue-500 text-white  rounded flex items-center gap-2 justify-center"
-              >
-                <a 
-                  href="mailto:Oliviaspaphysiotherapy8409@gmail.com" 
-                  target="_blank" 
-                 
-                  className="flex items-center  text-white px-4 py-2 gap-3  rounded-full"
-                >
-                  <IoMdMail />Mail Us
-                </a>
-              </div>
+              
               <div>
             
               </div>

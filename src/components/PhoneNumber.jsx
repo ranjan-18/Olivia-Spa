@@ -9,7 +9,7 @@ function PhoneNumber() {
   return (
     <div>
       
-      <button  className="bg-blue-500 text-white px-4 py-2 rounded flex items-center gap-2 justify-center" onClick={dialNumber}> <FaPhoneAlt />Call Us</button>
+      <button  className="bg-blue-500 text-white px-4 py-2 rounded flex items-center gap-2 justify-center" onClick={dialNumber}> <FaPhoneAlt />Call</button>
     </div>
   );
 }
