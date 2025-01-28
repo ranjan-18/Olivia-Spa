@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import PhoneNumber from "../components/PhoneNumber";
 import { BsWhatsapp } from "react-icons/bs";
 import Faq from "../components/Faq";
-
+import { IoMdMail } from "react-icons/io";
 
 const testimonials = [
   {
@@ -120,6 +120,19 @@ const About = () => {
                   className="flex items-center  text-white px-4 py-2 gap-3  rounded-full"
                 >
                  <BsWhatsapp  /> Live Chat
+                </a>
+              </div>
+
+              <div 
+                className="bg-blue-500 text-white  rounded flex items-center gap-2 justify-center"
+              >
+                <a 
+                  href="mailto:Oliviaspaphysiotherapy8409@gmail.com" 
+                  target="_blank" 
+                 
+                  className="flex items-center  text-white px-4 py-2 gap-3  rounded-full"
+                >
+                  <IoMdMail />Mail Us
                 </a>
               </div>
               <div>

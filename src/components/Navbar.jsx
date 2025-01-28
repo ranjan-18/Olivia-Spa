@@ -19,7 +19,7 @@ const Navbar = () => {
     return (
         <div className='absolute top-0 left-0 w-full z-10'>
             <div className='container mx-auto flex justify-between items-center py-4 px-6 md:px-10 lg:px-32'>
-                <img src={assets.logo} alt="Olivia Spa & Physiotherapy Logo" />
+                <img src={assets.logo} className='w-15 h-10' alt="Olivia Spa & Physiotherapy Logo" />
 
                 {/* Desktop Menu */}
                 <ul className='hidden md:flex gap-7 text-white'>

@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className='pt-10 px-4 md:px-20 lg:px-32 bg-blue-500 w-full overflow-hidden'>
     <div className='container mx-auto flex flex-col md:flex-row justify-between items-start'>
-        <div className='w-full md:w-1/3 mb-8 md:mb-0'><img className='w-8 h-8' src={assets.logo2} alt="" />
+        <div className='w-full md:w-1/3 mb-8 md:mb-0'><img className='w-15 h-8' src={assets.logo} alt="" />
         <p className='mt-4 text-white'>Bringing Wellness Closer to You</p>
         </div>
         <div className='w-full md:w-1/5 mb-8 md:mb-0'>
@@ -24,7 +24,7 @@ const Footer = () => {
         Contact Us
         </h3>
         <p className='flex items-center text-white gap-3'><FaPhoneAlt /> 8409122919</p>
-        <a className='flex items-center text-white gap-3' href="mailto:ranjan@gmail.com"><CiMail />ranjan@gmail.com</a>
+        <a className='flex items-center text-white gap-3' href="mailto:Oliviaspaphysiotherapy8409@gmail.com"><CiMail />Oliviaspaphysiotherapy8409@gmail.com</a>
     </div>
     </div>
     <div className='text-white border-t border-white py-4 mt-10 text-center'>

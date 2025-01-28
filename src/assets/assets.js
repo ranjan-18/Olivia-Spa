@@ -1,5 +1,5 @@
-import logo from './logo.svg'
-import logo2 from './logo2.jpg'
+import logo from './logo.png'
+
 import whatsapp from './WhatsApp.svg.webp'
 import cross_icon from './cross_icon.svg'
 import menu_icon from './menu_icon.svg'
@@ -18,7 +18,7 @@ import right_arrow from './right_arrow.svg'
 
 export const assets = {
     logo,
-    logo2,
+  
     whatsapp,
     // logo_dark,
     cross_icon,
